@@ -42,13 +42,13 @@ namespace TheSnakeGame
 
         private void InitializeGame()
         {
-            this.Height = 560;
-            this.Width = 560;
+            this.Height = 600;
+            this.Width = 600;
 
             this.Controls.Add(area);
-            area.Top = 80;
-            area.Left = 80;
-            //area.Location = new Point(80, 80);
+            area.Top = 100;
+            area.Left = 100;
+            //area.Location = new Point(100, 100);
 
             //adding snake body
             snake.Render(this);

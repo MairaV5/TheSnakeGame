@@ -19,9 +19,9 @@ namespace TheSnakeGame
 
         private void InitializeSnake()
         {
-            this.AddPixel(275, 275);
-            this.AddPixel(275, 295);
-            this.AddPixel(275, 315);
+            this.AddPixel(300, 300);
+            this.AddPixel(300, 320);
+            this.AddPixel(300, 340);
         }
 
         private void AddPixel(int left, int top)
