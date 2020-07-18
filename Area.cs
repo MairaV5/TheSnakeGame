@@ -17,7 +17,7 @@ namespace TheSnakeGame
 
         private void InitializeArea()
         {
-            this.BackColor = Color.LightSkyBlue;
+            this.BackColor = Color.LightPink;
             //this.BackColor = Color.FromArgb(45, 45, 50);
             this.Height = 400;
             this.Width = 400;
